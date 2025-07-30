@@ -19,10 +19,10 @@
 ---
 include:
  - board: seeeduino_xiao_ble
-   shield: cool936tb_R
+   shield: cool936tb2_R
    snippet: studio-rpc-usb-uart
  - board: seeeduino_xiao_ble
-   shield: cool936tb_L
+   shield: cool936tb2_L
  - board: seeeduino_xiao_ble
    shield: settings_reset
 

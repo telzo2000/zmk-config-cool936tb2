@@ -1,4 +1,4 @@
-#include "cool936tb.dtsi"
+#include "cool936tb2.dtsi"
 
 &default_transform {
     col-offset = <5>;

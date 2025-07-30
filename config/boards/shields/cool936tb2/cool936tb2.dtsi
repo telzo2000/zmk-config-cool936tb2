@@ -3,10 +3,10 @@
 
 / {
     chosen {
-        zmk,physical-layout = &cool936tb_physical_layout;
+        zmk,physical-layout = &cool936tb2_physical_layout;
     };
     
-    cool936tb_physical_layout: cool936tb_physical_layout {
+    cool936tb2_physical_layout: cool936tb2_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
         transform = <&default_transform>;
