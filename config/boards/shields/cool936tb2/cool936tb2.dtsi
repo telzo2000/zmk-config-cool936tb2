@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
-
+     
 / {
     chosen {
         zmk,physical-layout = &cool936tb2_physical_layout;
