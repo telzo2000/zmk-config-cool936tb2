@@ -1,5 +1,0 @@
-config SHIELD_COOLl936TB2_R
-    def_bool $(shields_list_contains,cool936tb2_R)
-
-config SHIELD_COOL936TB2_L
-    def_bool $(shields_list_contains,cool936tb2_L)

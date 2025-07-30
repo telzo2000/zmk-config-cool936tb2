@@ -1,4 +1,4 @@
-#include "cool936tb2.dtsi"
+#include "cool936tb.dtsi"
 
 &kscan0 {
         col-gpios
