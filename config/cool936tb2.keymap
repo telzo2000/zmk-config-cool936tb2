@@ -80,7 +80,7 @@
 &kp LCTRL        &kp LEFT_GUI  &kp LALT      &trans                   &kp MINUS      &kp BACKSPACE  &kp RSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         NUM {
@@ -91,7 +91,7 @@
 &kp LCTRL     &kp LGUI      &kp LALT           &kp UNDERSCORE                  &trans         &kp BSPC        &kp RSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         ARROW {
