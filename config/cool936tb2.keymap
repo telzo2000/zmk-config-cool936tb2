@@ -16,7 +16,7 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
+        Esc {
             bindings = <&kp LS(ESC)>;
             key-positions = <0 1>;
         };
@@ -35,6 +35,12 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <9 10>;
             layers = <1>;
+        };
+
+        BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 10>;
+            layers = <0>;
         };
     };
 
