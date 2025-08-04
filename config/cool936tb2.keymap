@@ -86,7 +86,7 @@
 &kp LCTRL        &kp LEFT_GUI  &kp LALT      &trans                   &kp MINUS      &kp BACKSPACE  &kp RSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUM {
