@@ -97,7 +97,7 @@
 &kp LCTRL     &kp LGUI      &kp LALT           &kp UNDERSCORE                  &trans         &kp BSPC        &kp RIGHT_BRACE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         ARROW {
