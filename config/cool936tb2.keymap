@@ -12,6 +12,12 @@
     quick-tap-ms = <0>;
 };
 
+&msc {
+};
+
+&mmv {
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -61,6 +67,12 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
         };
     };
 
