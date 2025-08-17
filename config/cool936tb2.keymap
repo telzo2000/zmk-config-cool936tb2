@@ -69,18 +69,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-    };
-enc_positive:encoder_positive{
-    compatible = "zmk,behavior-mod-morph";
-    #binding-cells = <0>
-    binding = <&msc SCRL_UP>,<&msc SCRL_DOWN>;
-
-            tap-ms = <20>;
-        };
-
-
-
-
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
@@ -102,7 +90,7 @@ enc_positive:encoder_positive{
 &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE         &lt 2 SPACE  &kp BSPC  &kp PERIOD
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
