@@ -112,7 +112,7 @@
 &kp LCTRL     &kp LGUI      &kp LALT           &kp UNDERSCORE                  &trans         &kp BSPC        &kp RIGHT_BRACE
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         ARROW {
