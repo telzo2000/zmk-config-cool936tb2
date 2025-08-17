@@ -90,7 +90,7 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE         &lt 2 SPACE  &kp BSPC  &kp PERIOD
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
