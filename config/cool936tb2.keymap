@@ -69,13 +69,16 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+    };
 enc_positive:encoder_positive{
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>
     binding = <&msc SCRL_UP>,<&msc SCRL_DOWN>;
 
             tap-ms = <20>;
-};
+        };
+
+
 
 
 
