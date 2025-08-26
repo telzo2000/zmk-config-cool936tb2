@@ -78,18 +78,6 @@
             tap-ms = <20>;
         };
 
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mouse-key-press";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <1>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "NEW_BEHAVIOR";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-        };
         // エンコーダー：キー
         rot_kp: sensor_rotate_kp {
             compatible = "zmk,behavior-sensor-rotate-var";
@@ -120,7 +108,6 @@
             // tap-ms下限メモ Xの値で可変: X(15) <81>, X(20) <65>, X(25) <49>
             tap-ms = <65>;
         };
-    
     
     };
 
