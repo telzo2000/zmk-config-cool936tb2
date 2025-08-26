@@ -77,6 +77,19 @@
 
             tap-ms = <20>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "NEW_BEHAVIOR";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+        };
     };
 
     keymap {
