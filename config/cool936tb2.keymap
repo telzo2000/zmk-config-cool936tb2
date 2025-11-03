@@ -58,7 +58,7 @@
 
         MS_DOWN {
             bindings = <&msc SCRL_DOWN>;
-            key-positions = <5 4>;
+            key-positions = <4 3>;
             layers = <1>;
         };
 
@@ -70,7 +70,7 @@
 
         V_DOWN {
             bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <4 5>;
+            key-positions = <4 3>;
             layers = <2>;
         };
     };
