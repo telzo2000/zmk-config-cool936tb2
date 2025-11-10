@@ -73,6 +73,18 @@
             key-positions = <4 3>;
             layers = <2>;
         };
+
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <25 24>;
+            layers = <0>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <24 23>;
+            layers = <0>;
+        };
     };
 
     macros {
