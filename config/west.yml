@@ -5,9 +5,7 @@ manifest:
     - name: telzo2000
       url-base: https://github.com/telzo2000
     - name: caksoylar  # <-- new entry
-      url-base: https://github.com/caksoylar 
-     - name: kot149
-      url-base: https://github.com/kot149 
+      url-base: https://github.com/caksoylar  
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,8 +17,5 @@ manifest:
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
       revision: main
-    - name: zmk-layout-shift
-      remote: kot149
-      revision: v1
   self:
     path: config
