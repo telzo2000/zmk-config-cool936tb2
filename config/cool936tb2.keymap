@@ -157,22 +157,7 @@
         };
     };
 
-#include <layout_shift_kp_override.dtsi>
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &kp EQUAL      // 通常は = を出力するが、JISレイアウトでは _ (JISレイアウトでの = に対応)を出力する
-                &tog_ls        // レイアウトシフトのオン/オフを切り替え
-                &tog_ls_on     // レイアウトシフトをオンにする
-                &tog_ls_off    // レイアウトシフトをオフにする
-            >;
-        };
-    };
-};
 
 
     keymap {
