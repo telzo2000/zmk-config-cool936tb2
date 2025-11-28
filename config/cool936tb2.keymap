@@ -217,10 +217,10 @@
 
         ARROW {
             bindings = <
-&kp Q      &kp W     &kp E     &kp R        &kp T  &kp N1       &kp Y     &kp U       &kp I       &kp O      &kp F10
-&kp A      &kp S     &kp D     &kp F        &kp G  &kp H        &kp J     &kp K       &kp L       &kp ENTER
-&kp Z      &kp X     &kp C     &kp V        &kp B  &kp N        &kp M     &kp COMMA   &kp PERIOD
-&kp LCTRL  &kp LGUI  &kp LALT  &lt 4 SPACE         &lt 5 SPACE  &kp BSPC  &kp RSHIFT
+&kp Q      &kp W     &kp E     &kp R        &kp T  &kp N1       &kp Y     &kp U       &kp I            &kp O      &kp F10
+&kp A      &kp S     &kp D     &kp F        &kp G  &kp H        &kp J     &kp K       &kp L            &kp ENTER
+&kp Z      &kp X     &kp C     &kp V        &kp B  &kp N        &kp M     &kp COMMA   &kp RIGHT_SHIFT
+&kp LCTRL  &kp LGUI  &kp LALT  &lt 4 SPACE         &lt 5 SPACE  &kp BSPC  &kp PERIOD
             >;
         };
 
