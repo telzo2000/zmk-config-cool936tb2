@@ -98,13 +98,13 @@
         };
 
         To_US {
-            bindings = <&mo 3>;
+            bindings = <&to 3>;
             key-positions = <0 11 21>;
             layers = <1>;
         };
 
         To_JIS {
-            bindings = <&mo 0>;
+            bindings = <&to 0>;
             key-positions = <0 11 21>;
             layers = <4>;
         };
