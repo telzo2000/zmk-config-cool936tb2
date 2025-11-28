@@ -96,6 +96,18 @@
             key-positions = <30 31>;
             layers = <0>;
         };
+
+        To_US {
+            bindings = <&mo 3>;
+            key-positions = <0 11 21>;
+            layers = <1>;
+        };
+
+        To_JIS {
+            bindings = <&mo 0>;
+            key-positions = <0 11 21>;
+            layers = <4>;
+        };
     };
 
     macros {
