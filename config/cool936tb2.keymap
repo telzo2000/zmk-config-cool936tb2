@@ -77,7 +77,6 @@
         MB1_M {
             bindings = <&mkp MB1>;
             key-positions = <32 33>;
-            layers = <0>;
         };
 
         MB2_M {
