@@ -96,13 +96,13 @@
             layers = <0>;
         };
 
-        To_US {
+        To_JIS {
             bindings = <&to 3>;
             key-positions = <0 11 21>;
             layers = <1>;
         };
 
-        To_JIS {
+        To_US {
             bindings = <&to 0>;
             key-positions = <0 11 21>;
             layers = <4>;
