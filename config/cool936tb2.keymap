@@ -8,6 +8,32 @@
 #define SCROLL 5
 #define NUM 6
 
+// OS設定を日本語キーボードのまま使用するための変換定義
+#define JP_DQUOTE       AT                // "
+#define JP_AMPERSAND    CARET             // &
+#define JP_QUOTE        AMPERSAND         // '
+#define JP_EQUAL        UNDER             // =
+#define JP_CARET        EQUAL             // ^
+#define JP_YEN          0x89              // ¥
+#define JP_PLUS         COLON             // +
+#define JP_TILDE        PLUS              // ~
+#define JP_PIPE         LS(0x89)          // |
+#define JP_AT           LEFT_BRACKET      // @
+#define JP_COLON        SINGLE_QUOTE      // :
+#define JP_ASTERISK     DOUBLE_QUOTES     // *
+#define JP_BACKQUOTE    LEFT_BRACE        // `
+#define JP_UNDERSCORE   LS(0x87)          // _
+#define JP_LBRACKET     RIGHT_BRACKET     // [
+#define JP_RBRACKET     BACKSLASH         // ]
+#define JP_LPAREN       ASTERISK          // (
+#define JP_RPAREN       LEFT_PARENTHESIS  // )
+#define JP_LBRACE       RIGHT_BRACE       // {
+#define JP_RBRACE       PIPE              // }
+#define JP_KANA         LANGUAGE_1        // かな
+#define JP_EISU         LANGUAGE_2        // 英数
+#define JP_HANZEN       GRAVE             // 半角/全角
+
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -227,7 +253,7 @@
             bindings = <
 &kp N1           &kp N2        &kp N3        &kp N4      &kp N5       &to 0      &kp N6         &kp N7             &kp N8                &kp N9     &kp N0
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp ENTER
-&kp COLON        &kp MINUS     &kp ASTERISK  &kp SLASH   &kp MINUS    &kp PLUS   &kp QUESTION   &kp RIGHT_BRACKET  &kp RSHIFT
+&kp COLON        &kp MINUS     &kp JP_ASTERISK  &kp SLASH   &kp MINUS    &kp PLUS   &kp QUESTION   &kp RIGHT_BRACKET  &kp RSHIFT
 &kp LCTRL        &kp LEFT_GUI  &kp LALT      &none                    &kp MINUS  &kp BACKSPACE  &kp BACKSLASH
             >;
 
@@ -238,8 +264,8 @@
             bindings = <
 &kp F1            &kp F2        &kp F3             &kp F4          &kp F5    &kp N1         &kp F6          &kp F7           &kp F8           &kp F9     &kp F10
 &kp LEFT_BRACKET  &kp AT_SIGN   &kp DOUBLE_QUOTES  &kp SEMICOLON   &kp SQT   &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT        &kp ENTER
-&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2       &kp BACKSLASH   &kp PIPE  &kp LC(EQUAL)  &kp RG(SPACE)   &kp RIGHT_BRACE  &kp RIGHT_SHIFT
-&kp LCTRL         &kp LGUI      &kp LALT           &kp UNDERSCORE            &none          &kp BSPC        &kp PIPE
+&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2       &kp BACKSLASH   &kp JP_PIPE  &kp LC(EQUAL)  &kp RG(SPACE)   &kp RIGHT_BRACE  &kp RIGHT_SHIFT
+&kp LCTRL         &kp LGUI      &kp LALT           &kp JP_UNDERSCORE            &none          &kp BSPC        &kp PIPE
             >;
 
             sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
